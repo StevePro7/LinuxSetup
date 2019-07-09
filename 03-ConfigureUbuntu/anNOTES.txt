@@ -1,0 +1,87 @@
+anNOTES
+configure ubuntu
+27/07/2019
+
+LinuxSetup.html
+D:\Steven\Linux
+
+
+NB: if text is too small when configure Ubuntu
+
+Virtual Box | Ubuntu | Settings | Display
+Scale Factor
+
+
+Double click Ubuntu virtual machine to start it up
+
+Wait for Ubuntu to boot up
+
+Choose Install Ubuntu when prompted
+
+
+
+Preparing to install Ubuntu, I choose both options here
+
+Download updates while installing Ubuntu
+Install third-party software for graphics and Wi-Fi hardware, Flash, MP3 and other media
+
+Continue
+
+
+
+Installation type
+Erase disk and install Ubuntu
+Install Now
+
+
+If you continue... Continue
+
+Where are you?
+Dublin
+
+Keyboard layout
+auto defaults to 
+Irish
+Irish
+
+but if you change then sometimes this then sometimes the screen resizes and you can't click the "Continue" button
+Therefore, just click Continue now and re-configure keyboard later...
+
+Enter the details
+Your name		Steven Boland
+Computer name		stevepro-virtualbox
+
+Pick a username		stevepro				// pick this first!
+Password		SP4
+
+Require my password to login
+Note : if you are new to Linux, the username will also be the name of your $HOME directory
+
+e.g.
+
+
+/home/username
+/home/stevepro
+
+
+PS: you can verify on Terminal
+hostname
+
+
+Restart the computer once prompted after installation is complete
+
+
+
+Once signed into Ubuntu, check that you have Internet connection
+In theory there should be no additional configuration here as should use the wired network connection from desktop PC
+
+Verify
+
+Settings (top right hand side)
+
+System Settings
+
+Network | Wired
+
+Launch Firefox browser and navigate to any website to also confirm that you have Internet connectivity
+

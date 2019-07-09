@@ -1,0 +1,23 @@
+anLAYOUT
+27/06/2019
+
+Intro
+
+Do beginner setup on Windows 10
+but crap on about Hyper V error
+VT-x is not available (VERR_VMX_NO_VMX).
+
+Therefore, concentrate setup on Mac
+
+
+01.
+Install Virtual Box
+
+02.
+Install Ubuntu 16.04
+
+remove crap sw from launcher
+update resolution
+
+Update keyboard settings
+download Google Chrome

@@ -1,0 +1,14 @@
+anNOTES
+upgrade
+27/07/2019
+
+
+Virtual Box
+Devices | Insert Guest Additions CD Image...
+
+
+Upgrade 16.04 to 18.04
+Software Update
+Upgrade
+18.05 Bionic Beaver
+prompted to upgrade to newer version of Ubuntu

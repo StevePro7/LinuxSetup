@@ -1,0 +1,147 @@
+anNOTES 02
+install software
+28/07/2019
+
+
+sudo apt-get install git
+sudo apt-get install subversion
+sudo apt-get install curl
+
+
+JAVA
+anNOTES03.txt
+D:\Steven\Linux
+
+sudo apt install openjdk-11-jre-headless  # version 11.0.3+7-1ubuntu2~19.04.1, or
+sudo apt install default-jre              # version 2:1.11-71
+sudo apt install openjdk-8-jre-headless   # version 8u212-b03-0ubuntu1.19.04.2
+sudo apt install openjdk-12-jre-headless  # version 12.0.1+12-1
+sudo apt install openjdk-13-jre-headless  # version 13~13-0ubunt1
+
+
+00.
+Install gitkraken
+then clone this repo so can copy + paste links easier
+
+
+01.
+Visual Studio Code
+vscode
+D:\Steven\Linux
+
+
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+
+sudo apt-get update
+sudo apt-get install code # or code-insiders
+
+Install all relevant VS Code plugins
+
+
+08.
+geany IDE
+https://tecadmin.net/install-geany-ide-ubuntu
+
+sudo add-apt-repository ppa:geany-dev/ppa
+sudo apt-get update
+
+
+09.
+NetBeans
+https://www.tecmint.com/install-netbeans-ide-in-ubuntu-debian-linux-mint
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+
+apt-cache search oracle-java8
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+
+wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+
+chmod +x netbeans-8.2-linux.sh 
+./netbeans-8.2-linux.sh\
+
+
+No compatible JDK was found
+is this because the following commands were old and did not work
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+
+Try this
+https://websiteforstudents.com/how-to-install-netbeans-on-ubuntu-16-04-17-10-18-04
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install oracle-java8-installer
+
+sudo apt install oracle-java8-set-default
+javac -version
+
+retry
+./netbeans-8.2-linux.sh
+
+but when get prompted that no JDK try this path
+/usr/lib/jvm/java-8-oracle
+
+
+Still getting BS about 
+oracle java installer has no candidate
+
+so try this
+https://askubuntu.com/questions/790671/oracle-java8-installer-no-installation-candidate
+
+/etc/apt/sources.list.d
+webupd8team-java.list and delete it.
+sudo apt-get update
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+
+Still failing therefore javac prmopts me to install
+sudo apt-get install
+default-jdk
+ * default-jdk
+ * ecj
+ * gcj-5-jdk
+ * openjdk-8-jdk-headless
+ * gcj-4.8-jdk
+ * gcj-4.9-jdk
+ * openjdk-9-jdk-headless
+
+
+actually only needed to install default-jdk
+Netbeans prmopt for /usr folder was sufficient for JDK location in NetBeans
+
+10.
+dotnet
+https://mohitgoyal.co/2018/09/22/install-dotnet-core-sdk-and-runtime-on-ubuntu-os
+
+https://github.com/dotnet/core
+Before installing .NET you'll need to register the Microsoft key, register the product repo and install req'd dependencies
+
+wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+Install .NET Core Runtime
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-hosting-2.0.6
+
+Install .NET Core SDK
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.1
+sudo apt-get install dotnet-sdk-2.2
+
+Reference
+https://www.microsoft.com/net/download/linux-package-manager/ubuntu16-04/sdk-current
+
+dotnet --version
+dotnet --list-sdks
+dotnet --list-runtimes

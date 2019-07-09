@@ -1,0 +1,81 @@
+anNOTES
+install software
+27/07/2019
+
+_anNOTES.txt
+D:\Steven\Linux
+
+
+Ubuntu 16.04
+unlock crap sw from Launcher
+
+
+AA.
+Update resolution
+Running the Retina MacBook Pro at Full 2880x1800 Resolution ...
+Settings
+Display
+choose display that makes sense for the computer
+e.g.
+iMac
+1920 x 1440 (4:3)
+
+Virtual Box | View | Scaled Mode
+then drag the screen borders to maximize the space
+
+
+BB.
+Update keyboard settings
+
+Settings
+Text Entry
+Irish
+Remove
+ensure that English (US) is the only keyboard as this uses "@"
+
+
+CC.
+Download + install Google Chrome
+Google Chrome
+https://askubuntu.com/questions/760085/how-do-you-install-google-chrome-on-ubuntu-16-04
+
+
+MUST download the *.deb file first	for Debian | Ubuntu
+
+sudo apt-get update
+sudo apt-get install libgconf2-4
+sudo apt-get install libnss3-1d
+sudo apt-get install libxss1
+sudo apt-get -f install
+
+Download google chrome from website
+http://www.google.com/chrome
+
+Save file into downloads
+
+sudo su
+cd
+cd Downloads
+sudo dpkg -i google-chrome-stable_amd64.deb
+Install Google
+
+
+DD.
+Setup file share from perviously setup mount
+
+checkout "mount"
+C:\stevepro\INSTALL\Ubuntu
+
+Click Files
+Connect to Server
+smb://EUWK2WH8DP2.idev.spencerstuart.com
+smb://STEVEPRO-PC
+Connect
+
+Username	TEST
+Domain		WORKGROUP
+Password	otm123
+
+Username	stboland
+Domain		idev
+Password	pwd125

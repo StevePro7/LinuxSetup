@@ -1,0 +1,47 @@
+anNOTES
+27/07/2019
+
+LinuxSetup.html
+D:\Steven\Linux
+
+
+Launch Virtualbox
+New
+
+Name		Ubuntu 
+Machine Folder	~/VirtualBox VMs/
+Type		Linux
+Version		Ubuntu (64-bit)
+Continue
+
+Memory Size
+Suggested 8GB (8,192MB) if you have 16GB total RAM
+
+Hard Disk
+Create a virtual hard disk now
+Create
+
+Hard disk file type
+VDI (VirtualBox Disk Image)
+Continue
+
+Storage on physical hard disk
+Fixed size
+Continue
+
+File location and size
+~/VirtualBox VMs/Ubuntu/Ubuntu.vdi
+100GB
+
+
+
+INSTALL iso
+Click on Settings and Storage.
+
+Click "Empty"
+Click the icon next to the "Optical Drive" IDE Secondary, Master
+
+Choose Virtual Optical Disk File
+Navigate to the ubuntu-16.04.6-desktop-amd64.iso file 
+Open | OK
+

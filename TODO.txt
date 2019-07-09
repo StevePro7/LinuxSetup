@@ -1,0 +1,37 @@
+TODO
+27/06/2019
+
+01.
+Install Virtual Box
+Expand the notes from LinuxSetup.html
+to proper blog notes
+
+IMPORTANT
+Ensure that you choose large disk for "Fixed Size"
+
+
+
+Ctrl vs. Windows key
+find this how to switch
+in configuration
+
+
+
+Upgrade but black screen of death
+https://www.youtube.com/watch?v=OTmZYzaxR_k
+
+I think that I need to install / upgrade graphics driver
+
+
+19.04
+Everytime laucnh get "System program problem detected"
+https://www.binarytides.com/ubuntu-fix-system-program-problem-error
+
+$ cd /var/crash
+$ ls
+$ sudo rm /var/crash/*
+
+$ sudo gedit /etc/default/apport
+enabled=0
+
+restart

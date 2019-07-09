@@ -1,0 +1,28 @@
+anNOTES
+27/06/2019
+
+LinuxSetup.html
+D:\Steven\Linux
+
+
+Download VirtualBox from here 
+
+http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html#vbox
+
+or get from Z:\Technology\Software\VirtualBox-5.2.8-121009-Win.exe
+
+Follow all prompts
+
+
+
+Next, download Ubuntu 16.04 from here
+
+https://www.ubuntu.com/download/desktop
+
+or get from Z:\Technology\Software\ubuntu-16.04.3-desktop-amd64.iso
+
+
+
+Finally, here is great web site that instructs how to Install Ubuntu inside Windows using VirtualBox
+
+http://www.psychocats.net/ubuntu/virtualbox
