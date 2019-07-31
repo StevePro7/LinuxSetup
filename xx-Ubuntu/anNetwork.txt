@@ -1,0 +1,128 @@
+anNetwork
+10/12/2017
+
+Ubuntu 16.04
+After installing new Ubuntu I had an issue with the network could not connect
+
+
+ifconfig -a
+
+
+https://askubuntu.com/questions/767574/no-network-after-upgrade-to-16-04
+
+no eth0
+
+
+sudo /etc/init.d/networking start
+
+#loopback
+auto lo
+iface lo inet loopback
+
+#eth0
+auto eth0
+iface eth0 inet dhcp
+
+
+
+/etc/network/interfaces.
+
+/etc/NetworkManager/NetworkManager.conf
+
+change the line managed=false to managed=true
+
+sudo service network-manager restart
+
+sudo /etc/init.d/networking start
+
+https://help.ubuntu.com/community/SoundTroubleshooting
+
+https://www.pcworld.com/article/2455972/how-to-fix-your-internet-connection-in-ubuntu-linux.html
+
+
+
+etho
+Device
+00:0C:29:BC:EF:D9
+
+
+MTU
+automatic
+
+Wake on LAN
+Default
+
+
+
+IPv4 Settings
+IPv6 Settings
+Method
+Automatic (DHCP)
+
+
+
+ifconfig -a
+ens33
+
+
+Interesting seems that after installing Ubuntu 16.04 eth0 becomes ens33
+http://www.itzgeek.com/how-tos/mini-howtos/change-default-network-name-ens33-to-old-eth0-on-ubuntu-16-04.html
+
+
+https://askubuntu.com/questions/767574/no-network-after-upgrade-to-16-04
+sudo /etc/init.d/networking start
+sudo update-rc.d networking defaults
+
+
+#loopback
+auto lo
+iface lo inet loopback
+
+#eth0
+auto eth0
+iface eth0 inet dhcp
+
+
+Try this but still not working
+$ sudo systemctl enable systemd-networkd
+$ sudo systemctl enable systemd-resolved
+$ sudo systemctl start systemd-resolved
+$ sudo rm /etc/resolv.conf
+$ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+$ sudo vi /etc/systemd/network/20-dhcp.network
+Content:
+
+[Match]
+Name=e*
+
+[Network]
+DHCP=yes
+
+
+Try this
+$ sudo systemctl enable systemd-networkd
+$ sudo systemctl enable systemd-resolved
+$ sudo systemctl start systemd-resolved
+$ sudo rm /etc/resolv.conf
+$ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+$ sudo vi /etc/systemd/network/20-dhcp.network
+Content:
+
+[Match]
+Name=e*
+
+[Network]
+DHCP=yes
+
+
+Try this
+https://www.pcworld.com/article/2455972/how-to-fix-your-internet-connection-in-ubuntu-linux.html
+
+
+Restarted
+I renamed the ethernet connection ens33
+$ sudo systemctl enable systemd-networkd
+$ sudo systemctl enable systemd-resolved
+
+said connected but 
+

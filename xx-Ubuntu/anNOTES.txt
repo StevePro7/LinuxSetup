@@ -1,0 +1,34 @@
+anNOTES
+08/12/2017
+
+
+Setting up Ubuntu on HP machine
+Can login but cannot connect to ethernet
+
+
+
+https://superuser.com/questions/1137099/server-not-found-all-browser-on-ubuntu
+
+
+
+Trying this:
+https://ubuntuforums.org/showthread.php?t=1145698
+
+sudo su
+cd /etc/network
+cat interfaces
+
+auto eth0 inet
+sudo /etc/init.d/networking restart
+
+but getting error
+
+
+
+Also tried to set nameserver 8.8.8.8 on
+/etc/resolve.conf
+
+
+
+Tried this
+https://askubuntu.com/questions/398747/wired-network-disconnected-even-when-connected-no-ethernet-connection-possibl

@@ -1,0 +1,122 @@
+anNOTES2
+18/12/2017
+
+
+A device ID has been used that is out of range for your system
+Sound will be disconnected
+
+
+VM | Player | Manager | Install VM Tools
+Vmware Tools installation cannot be started manually while Easy Install in progress
+
+
+device id has been used that is out of range for the system
+Sound will be disconnected
+
+SMBU host controller not enabled
+
+
+
+Display
+https://askubuntu.com/questions/788161/how-to-set-the-screen-resolution-in-ubuntu-16-04-64-bit-running-under-vmware-wor
+
+Terminal
+xrandr -s 1660x1200
+
+
+
+WiFi
+MAGNET
+SSID	MAGNET-50455C
+Pass	F2A574623F
+
+
+
+Ethernet
+https://askubuntu.com/questions/833114/how-to-set-up-ethernet-connection-16-04-server
+
+
+ifconfig
+lo
+ens33
+
+cat /etc/network/interfaces
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+
+ip link
+lo
+ens33
+
+
+sudo ifdown ens33
+sudo ifup -v ens33
+ens33 not an interface
+
+
+EDIT interfaces
+gedit /etc/network/interfaces
+
+# The primary network interface
+auto ens33
+iface ens33 inet dhcp
+
+
+sudo ifdown ens33
+ens33 not configured
+
+sudo ifup -v ens33
+started printed out stuff
+had to kill terminal
+
+sudo ifdown ens33
+now prints some stuff
+
+
+RESTART
+sudo /etc/init.d/networking restart
+
+ping 8.8.8.8			connecct: Network is unreachable
+ping yahoo.com			ping: unknown host yahoo.com
+tracepath google.com		gethostbyname2: Host name lookup failure
+
+
+cd /etc
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
+
+
+https://help.ubuntu.com/lts/serverguide/network-configuration.html
+
+
+ens33 (00:0C:29:BC:EF:d9)
+
+
+https://help.ubuntu.com/lts/serverguide/network-configuration.html
+iface eth0 inet static
+    address 192.168.3.3
+    netmask 255.255.255.0
+    gateway 192.168.3.1
+    dns-search example.com sales.example.com dev.example.com
+    dns-nameservers 192.168.3.45 192.168.8.10
+
+
+
+Try to set up Ethernet manually
+    address 192.168.1.22
+    netmask 255.255.255.0
+    gateway 192.168.1.254
+    dns-nameservers 8.8.8.8
+
+
+BFG ipconfig
+Ethernet adapter VMware	WMnet1
+    address 169.254.133.246
+    netmask 255.255.255.0
+
+Ethernet adapter VMware	WMnet1
+    address 192.168.174.1
+    netmask 255.255.255.0

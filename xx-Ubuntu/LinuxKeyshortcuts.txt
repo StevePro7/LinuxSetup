@@ -1,0 +1,18 @@
+Linux Key shortcuts
+29/12/2018
+
+
+For some reason Ctrl+C and Ctrl+V not always "working"
+can do Ctrl+Shift+V to paste or Shift+Insert
+https://askubuntu.com/questions/823883/ctrl-v-ctrl-c-in-terminal/823886
+
+
+
+Eclipse
+F3		is like F12 in Visual Studio
+
+
+File explorer
+Ctrl+D
+Add bookmard
+https://askubuntu.com/questions/83118/create-a-link-to-a-folder-on-the-left-panel-of-nautilus-file-manager

@@ -1,0 +1,29 @@
+MAC anNOTES
+01/04/2019
+
+Machine Folder
+/Users/steven/VirtualBox VMs
+Linux
+Ubuntu (64-bit)
+
+
+
+Virtual Box
+preferernces
+Display
+2560x1440
+
+
+
+Need to
+change username
+change keyboard
+System prefs
+Text entry
+remove Irish so only have English (US)
+
+change resolution
+System prefs
+display
+
+virtualbox ubuntu mac change display resolution

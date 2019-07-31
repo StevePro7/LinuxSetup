@@ -1,0 +1,53 @@
+KegaFusion
+19/12/2017
+
+
+Not sure exactly what I did but I managed to install Kega Fusion on Ubuntu 16.04
+
+https://segaretro.org/Kega_Fusion
+
+The thing that I think was different from yesterday is that I downloaded the DEB version
+DEB seems to be file format for Debian and Ubuntu
+
+i.e.
+Kega-fusion_3.63-2_i386.deb
+
+Save file
+cd ~/Downloads
+
+sudo apt-get install Kega-fusion_3.63-2_i386.deb
+ERROR
+
+sudo dpkg -i Kega-fusion_3.63-2_i386.deb
+
+
+Initially all of this did not works as there were dependent packages not installed
+
+Terminal
+sudo apt-get -f install
+
+
+I believe this command installs all dependent packages not installed but required previously?
+Anyway this downloaded tons of stuff any now Search Kega Fusion works OK
+
+
+
+18/12/2017
+
+
+https://segaretro.org/Kega_Fusion
+Kega Fusion v3.63x (Linux) (703 kB) (info)
+
+Fusion363x.tar.gz
+
+
+
+
+http://www.playdeb.net/game/Gens-GS%20(32bit%20only)
+sudo apt-get update
+sudo apt-get install gens-gs
+
+
+
+https://segaretro.org/Gens/GS?rdfrom=%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DGens%2FGS%26redirect%3Dno
+sudo apt-get install Gens_2.16.7_i386.deb

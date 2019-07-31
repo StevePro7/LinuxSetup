@@ -1,0 +1,22 @@
+Linux 02
+18/04/2018
+
+
+sudo gdebi skype.deb
+
+sudo apt-get gdebi
+sudo apt-get install -f
+sudo apt-get update
+
+
+Download DEB package
+Download truco4gnu-es_9.08.15a1_i386.deb
+https://sourceforge.net/projects/ionos/files/testing/pool/main/t/truco4gnu-es
+sudo dpkg -i truco4gnu-es_9.08.15a1_i386.deb
+
+
+error with update-menus
+sudo apt-get install menu
+
+
+Start type tru and now game starts playing…!

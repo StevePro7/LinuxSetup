@@ -1,0 +1,36 @@
+Windows Subsystem on Linux
+02/04/2019
+
+
+
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+Install Visual Studio Code
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04
+
+Control Panel
+Turn on /off Windows
+
+
+
+Windows Store
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+
+couldn't download via Store
+https://www.microsoft.com/store/p/ubuntu/9nblggh4msv6
+
+
+trying manually
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+Ubuntu.1604.2017.711.0_v1.appx
+
+https://docs.microsoft.com/en-us/windows/wsl/install-on-server
+
+error
+build version not high enough
+
+
+check
+You're running Windows build 16215 or later. Check your build.

@@ -1,0 +1,91 @@
+Linux
+19/12/2017
+
+
+sudo apt-get update
+sudo apt -f install
+
+
+01.
+Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
+https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process
+
+sudo lsof /var/lib/dpkg/lock
+kill -9 <PID>
+
+
+
+Download stuff
+
+e.g.
+Google Chrome
+https://askubuntu.com/questions/760085/how-do-you-install-google-chrome-on-ubuntu-16-04
+
+
+MUST download the *.deb file first	for Debian | Ubuntu
+
+sudo apt-get update
+sudo apt-get install libgconf2-4
+sudo apt-get install libnss3-1d
+sudo apt-get install libxss1
+
+
+Download google chrome from website
+http://www.google.com/chrome
+
+Save file into downloads
+
+sudo su
+cd
+cd Downloads
+sudo dpkg -i google-chrome-stable_amd64.deb
+
+
+ERROR but this worked
+sudo apt-get -f install
+sudo dpkg -i google-chrome-stable_amd64.deb
+
+
+02.
+Extract tar ball
+https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file
+
+e.g.
+Download CLion-2017.e.tar.gz
+cd
+cd Downloads
+tar -xvzf CLion-2017.e.tar.gz
+
+
+03.
+boost
+https://stackoverflow.com/questions/12241152/boost-no-such-file-or-directory
+
+sudo apt-get install libboost-dev
+
+
+
+sudo apt -f install
+sudo dpkg --configure -a
+
+
+04.
+Install source control
+sudo apt install git
+sudo apt install subversion
+
+
+How to find architecture of my PC and Ubuntu?
+https://askubuntu.com/questions/189640/how-to-find-architecture-of-my-pc-and-ubuntu
+
+uname
+ -a, --all                print all information, in the following order,
+                             except omit -p and -i if unknown:
+  -s, --kernel-name        print the kernel name
+  -n, --nodename           print the network node hostname
+  -r, --kernel-release     print the kernel release
+  -v, --kernel-version     print the kernel version
+  -m, --machine            print the machine hardware name
+  -p, --processor          print the processor type or "unknown"
+  -i, --hardware-platform  print the hardware platform or "unknown"
+  -o, --operating-system   print the operating system

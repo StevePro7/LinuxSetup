@@ -1,0 +1,21 @@
+CLion
+26/12/2017
+
+
+
+Extract tar ball
+https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file
+
+e.g.
+Download CLion-2017.e.tar.gz
+cd
+cd Downloads
+tar -xvzf CLion-2017.e.tar.gz
+
+
+
+https://www.youtube.com/watch?v=MGOYAt9Rn8Q
+
+https://www.youtube.com/watch?v=iWvcoIKSaoc&mkt_tok=eyJpIjoiT1dObFl6TTJZamN4TW1abCIsInQiOiJ3NzBcLzBXY2k3cWFyc3RkWU5VXC9mRjRyeGVZNXVRbzE2MExaazZ5RUtUb0tcL1ZMTDJ6U0Z2UkdKblo0STFVQTR5Z3I5a2tITXcxTzdpRmpoZmp3K2F1OGtoTEZmTVZ2QzI2R0FFRkhpbTQ1bHlmZTZsWWVWU2duY0F5MUZYbHM4NCJ9
+
+https://www.youtube.com/watch?v=j9arNRRoPe8&mkt_tok=eyJpIjoiT1dObFl6TTJZamN4TW1abCIsInQiOiJ3NzBcLzBXY2k3cWFyc3RkWU5VXC9mRjRyeGVZNXVRbzE2MExaazZ5RUtUb0tcL1ZMTDJ6U0Z2UkdKblo0STFVQTR5Z3I5a2tITXcxTzdpRmpoZmp3K2F1OGtoTEZmTVZ2QzI2R0FFRkhpbTQ1bHlmZTZsWWVWU2duY0F5MUZYbHM4NCJ9

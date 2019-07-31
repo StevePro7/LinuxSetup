@@ -1,0 +1,24 @@
+anNOTES
+18/12/2017
+
+Ubuntu 64-bit
+D:\steven.boland\Virtual Machines\Ubuntu 64-bit
+
+
+Fullname	SteveProStudios
+Username	stevepro
+Password	StevePro4
+
+
+Virtual machine name
+Ubuntu 64-bit
+
+Location
+D:\steven.boland\Virtual Machines\Ubuntu 64-bit
+
+20.0GB
+Store virtual disk as a single file
+
+
+After install may change the network from default NAT
+to VMnet1 or VMnet8

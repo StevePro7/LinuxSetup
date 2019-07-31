@@ -1,0 +1,24 @@
+Valgrind
+23/12/2017
+
+
+Today, after seeing C++ Linux job spec they mentioned Valgrind which I had not used before
+Believe it is a static code analysis tool as also is debugging and profiling tool
+
+Most popular tool is memcheck
+Did the example here
+http://valgrind.org/docs/manual/quick-start.html
+
+
+http://job-openings.monster.co.uk/C-Engineer-Dublin-City-Centre-Dublin-IE-Michelle-Ryan/11/191395254?WT.mc_n=olm_sk_feed_indeed_ie
+
+
+Valgrind
+
+
+Linux
+sudo apt install valgrind
+
+
+cd ~/CLionProjects/untitled/cmake-build-debug
+valgrind ./untitled --lead-check=yes

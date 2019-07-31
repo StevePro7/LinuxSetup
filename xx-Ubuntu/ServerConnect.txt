@@ -1,0 +1,13 @@
+Server connect
+18/12/2017
+
+
+I setup shared folder "mount" but couldn't see it
+No matter I worked out how to connect to server
+
+File explorer
+Connect to server
+
+Steven.Boland
+BIGFISH
+StevePro5

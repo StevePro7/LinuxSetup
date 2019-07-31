@@ -1,0 +1,63 @@
+MAC anNOTES 02
+02/04/2019
+
+Shared clipboard
+https://www.google.com/search?q=copy+%2B+paste+windows+to+virtual+box+linux&rlz=1C1GCEA_enIE799IE799&tbm=isch&source=iu&ictx=1&fir=0yRWhLb3YMFSlM%253A%252CFEwi2mSHiRraCM%252C_&vet=1&usg=AI4_-kS2k9BSxdLmJzu3GnUH6UX0CSozNA&sa=X&ved=2ahUKEwjE29fYxLHhAhVCShUIHQi0AdUQ9QEwAHoECAwQBg#imgrc=0yRWhLb3YMFSlM:
+VirtualBox VM
+Devices
+Shared Clipboard
+Bidirectional
+
+
+this didn't work
+
+tried
+Devices
+Insert Guest Additions CD image
+
+
+VirtualBox Gues Additions
+modprobe vboxsf failed
+
+
+TRIED this
+https://superuser.com/questions/1268741/virtualbox-ubuntu-guest-additions-not-installing-modprobe-vboxsf-failed
+
+sudo apt-get install virtualbox-guest-dkms
+
+
+
+https://askubuntu.com/questions/596998/unable-to-install-guest-additions-unknown-filesystem-type-iso9660
+
+ reboot  
+apt-get update
+ apt-get upgrade              (or apt-get dist-upgrade)
+ reboot  
+
+
+trying to get copy + paste working
+
+
+
+Windows Subsystem on Linux
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+Install Visual Studio Code
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04
+
+Control Panel
+Turn on /off Windows
+
+
+
+Setup file share
+03/04/2019
+
+checkout "mount"
+C:\stevepro\INSTALL\Ubuntu
+
+follow similar 
+
+
+smb://StBoland:Dublin520000@EUWK2WH8DP2.idev.spencerstuart.com
+

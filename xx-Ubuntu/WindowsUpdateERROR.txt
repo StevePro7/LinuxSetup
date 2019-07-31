@@ -1,0 +1,21 @@
+Windows Update ERROR
+13/04/2018
+
+Hi all,
+
+If you get the latest Windows update and then Virtual Box stops working and gives the following error,
+“VT-x is not available (VERR_VMX_NO_VMX).
+
+Then this appears to fix the problem:
+
+Run cmd prompt as Administrator
+
+Enter the following command
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+
+Restart when prompted
+
+Windows may do some a couple more updates / restarts but Virtual Box should work again afterwards.
+Reference: https://forums.virtualbox.org/viewtopic.php?f=6&t=84618
+
+Steven.

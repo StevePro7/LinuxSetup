@@ -1,0 +1,96 @@
+Graphics
+15/05/2019
+
+The system is running in low-graphics mode
+https://askubuntu.com/questions/141606/how-to-fix-the-system-is-running-in-low-graphics-mode-error
+
+
+Boot PC
+Recovery mode
+fail safe
+
+NO
+somehow get the X
+Exit to console
+
+Ctrl+Alt+F2
+
+login
+sudo apt-get autoclean
+
+cd ~   
+du -sc * |sort -g
+rm myLargeFile
+
+
+rm /etc/X11/xorg.conf.failsafe
+service lightdm restart
+
+
+Nvidia
+sudo apt-get install nvidia-current
+sudo apt remove
+sudo shutdown -r now
+
+
+NB: there was some text that suggest that I installed the wrong version
+of the Nvidia graphics driver
+can't find the command that lists all packages and can choose...
+
+
+now cant login - goes in loop
+is this because of the lightdm thing before
+https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop
+
+Login screen
+Ctrl+Alt+F2
+
+sudo dpkg-reconfigure lightdm
+
+/var/log/Xorg.0.log
+
+
+
+Trying this:
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install fglrx
+
+
+Went back to low graphics mode
+https://askubuntu.com/questions/141606/how-to-fix-the-system-is-running-in-low-graphics-mode-error
+
+re-install graphics driver again
+Try this 
+
+sudo apt-get install gdm
+
+
+sudo apt-get install gsku
+gksudo software-properties-gtk 
+
+
+apt-get install linux-source 
+ apt-get install linux-headers-$(uname -r)
+ apt-get install nvidia-current 
+ nvidia-xconfig 
+ reboot
+/etc/X11/xorg.conf
+
+
+ubuntu failed to load nvidia kernel module
+
+
+sudo dpkg-reconfigure lightdm
+Configure display manager
+
+gdm	tty1	bad
+lightdm	tty3	good
+
+
+login
+do-release-upgrade
+
+
+
+18/04 black screen

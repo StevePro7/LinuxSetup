@@ -1,0 +1,59 @@
+WIN anNOTES 03
+12/04/2019
+
+Going to try CentOS
+VirtualBox-5.2.8-121009-Win.exe
+
+CentOS-7-x86_64-DVD-1810.iso
+C:\stevepro\INSTALL\Ubuntu
+
+SETUP
+https://laptop.ninja/how-to-setup-centos-in-virtualbox
+
+
+CentOS
+Linux
+Red Hat (64-bit)
+
+Memory
+16384MB
+
+Create new virtual image
+Hard Disk
+VDI
+VirtualBox Disk Image
+
+Fixed Size
+20GB
+recommended is 8GB
+
+
+Step 4: Add the ISO Image to Your New Virtual Machine
+
+Settings
+Empy
+IDE Secondary Master
+CentOS-7-x86_64-DVD-1810.iso
+C:\stevepro\INSTALL\Ubuntu
+
+
+got the same VMX error about Hyper V as before!!
+
+
+
+After speaking with Tadgh going to try VirtualBox but Ubuntu 32-bit
+
+ubuntu-16.04.6-desktop-i386.iso
+http://cl.releases.ubuntu.com/xenial
+
+Run and still error
+VMX
+
+Settings
+System
+Acceleration
+VT-x is being used by another hypervisor (VERR_VMX_IN_VMX_ROOT_MODE).
+VirtualBox can't operate in VMX root mode. Please close all other virtualization programs. (VERR_VMX_IN_VMX_ROOT_MODE).
+
+
+Raw-mode is unavailable courtesy of Hyper-V. (VERR_SUPDRV_NO_RAW_MODE_HYPER_V_ROOT).

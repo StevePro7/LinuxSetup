@@ -1,0 +1,42 @@
+anNOTES3
+19/12/2017
+
+
+A device ID has been used that is out of range for your system
+Sound will be disconnected
+
+
+GOOGLE
+ubuntu the default sound device cannot be opened
+
+
+
+Realtek HD Audio Manager
+
+
+
+
+https://www.google.ie/search?q=playing+audio+through+remote+desktop&rlz=1C1CHBD_en-GBGB690GB690&oq=remote+audio+playing++&aqs=chrome.2.69i57j0l3.63822j0j7&sourceid=chrome&ie=UTF-8
+
+
+
+Remote Desktop
+Options
+Local Resource
+Play on Remote
+
+
+
+SOUND
+http://www.linuxforums.org/forum/newbie/194708-no-sound-ubuntu-through-vmware.html
+
+
+Terminal
+vmware-toolbox-cmd device enable sound
+
+sudo apt install open-vm-tools
+
+
+
+According to this VMware won't use sound on Windows 7?
+https://communities.vmware.com/thread/304246

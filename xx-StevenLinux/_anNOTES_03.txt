@@ -1,0 +1,153 @@
+MAC anNOTES 03
+16/05/2019
+
+01.
+Finder
+I want to have the folders sorted at the top of the list before files
+
+Launch Finder
+Click the 3 lines icon top right
+
+Preferences
+Views
+Sort folders before files
+
+also could be a good option
+Allow folders to be expanded
+
+PS: I think Finder is called Nautilius or something on Linux Ubuntu??
+
+
+
+02.
+Install GENS 	Ubuntu folder
+
+03.
+Install CLion	Ubuntu folder
+
+
+04.
+Source Tree equivalent on Linux
+https://stackoverflow.com/questions/49389422/what-is-the-alternate-of-source-tree-for-ubuntu-16-04
+GitEye
+
+SmartGit
+https://www.syntevo.com/smartgit/download/
+
+Try this
+https://stackoverflow.com/questions/12185222/smartgit-installation-and-usage-on-ubuntu
+
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo apt-get update
+sudo apt-get install smartgit
+
+cd Downloads
+tar -xvzf Smart.zip
+cd smartgit
+cd bin
+./smartgit.sh
+
+
+Try giteye because it is free
+Download GitEye
+https://www.collab.net/downloads/giteye#show-Linux
+
+64-bit
+cd 
+cd Downloads
+unzip GitEye*
+
+
+This need JAVA as dependency
+java
+
+sudo apt install openjdk-11-jre-headless  # version 11.0.3+7-1ubuntu2~19.04.1, or
+sudo apt install default-jre              # version 2:1.11-71
+sudo apt install openjdk-8-jre-headless   # version 8u212-b03-0ubuntu1.19.04.2
+sudo apt install openjdk-12-jre-headless  # version 12.0.1+12-1
+sudo apt install openjdk-13-jre-headless  # version 13~13-0ubunt1
+
+
+FROM above there was a 404 error from this repository
+ppa:eugenesan/ppa
+sudo add-apt-repository ppa:eugenesan/ppa
+
+thus an error each time that I did
+sudo apt-get update
+
+Therefore, I wanted to remove this repository:
+https://askubuntu.com/questions/307/how-can-ppas-be-removed
+sudo add-apt-repository --remove ppa:eugenesan/ppa
+
+
+
+Try GitKraken
+https://www.gitkraken.com/download/linux-deb
+cd
+cd Downloads
+sudo dpkg -i gitkraken*.deb
+
+Activities
+Gitkraken
+
+SteveProXNA
+steven_boland@hotmail.com
+StevePro4
+StevePro4
+
+Gio Boards
+https://app.gitkraken.com/glo
+
+IMPORTANT
+Can launch Terminal window from GitKraken but se3ems to be key shortcut only
+
+i.e.
+https://support.gitkraken.com/faq
+
+Alt+T
+This will launch terminal at the root of the .git location
+thus you can do command line stuff as before
+git status
+
+
+
+VSCode
+Python
+pylint
+https://stackoverflow.com/questions/50993566/vscode-there-is-no-pip-installer-available-in-the-selected-environment
+
+Close VScode
+sudo apt-get install python3-pip
+
+Open VScode
+F5
+Install pylint
+now should complete
+
+Mac had issue with Go debug mode in VS code
+https://github.com/go-delve/delve/blob/master/Documentation/installation/osx/install.md
+xcode-select --install
+go get -u github.com/go-delve/delve/cmd/dlv
+
+Version of Go too old for Mac
+https://medium.com/golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8
+sudo rm -rfv /usr/local/go
+
+curl -o go.pkg https://dl.google.com/go/go1.11.1.darwin-amd64.pkg
+shasum -a 256 go.pkg | grep 5cbd5505288bc2741091561dbfca05f4451824d557e275f373b8449112b84dff
+
+sudo open go.pkg
+
+export PATH=$PATH:$GOPATH/bin
+
+go get -u github.com/kardianos/govendor
+go get -u github.com/golang/lint/golint
+
+Delve is used to debug Go
+
+Upgrade go on mac
+https://golang.org/doc/install?download=go1.12.5.darwin-amd64.pkg
+
+manually remove old version
+delete /usr/local/go folder
+

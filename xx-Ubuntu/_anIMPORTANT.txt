@@ -1,0 +1,20 @@
+anIMPORTANT
+18/12/2017
+
+
+ENSURE VMware Player
+Network adapter
+Custom (VMnet0)
+
+
+Terminal
+ifconfig
+inet
+addr:	192.168.1.38
+Bcast:	192.168.1.22
+Mask:	255.255.255.0
+
+
+DISPLAY
+Terminal
+xrandr -s 1600x1200

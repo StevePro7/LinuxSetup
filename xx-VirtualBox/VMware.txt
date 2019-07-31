@@ -1,0 +1,25 @@
+VMware
+01/04/2019
+
+
+https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+
+no download?
+https://softfamous.com/postdownload-file/vmware-workstation-pro/7856/3943
+
+
+
+Steven Boland
+steven
+StevePro4
+C:\Users\StBoland\Box Sync\Documents\Virtual Machines\Ubuntu
+
+
+https://kb.vmware.com/s/article/2146361
+
+
+https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage
+
+Start | run | Group
+Edit group policy
+Group Policy Management Console, go to Computer Configuration -> Administrative Templates -> System -> Device Guard.
