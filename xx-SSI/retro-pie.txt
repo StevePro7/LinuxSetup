@@ -1,0 +1,11 @@
+retro pie
+18/04/2019
+
+
+
+https://github.com/RetroPie/RetroPie-Setup.git
+
+https://github.com/RetroPie/EmulationStation.git
+
+ERRORS
+git clone https://github.com/libretro/picodrive.git

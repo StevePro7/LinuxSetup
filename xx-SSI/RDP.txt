@@ -1,0 +1,93 @@
+RDP
+15/04/2019
+
+SUMMARY
+Launch Hyper V Manager
+Launch ubuntu
+Install xrdp
+Configure
+
+NB: I installed a bunch of other things that I don't think had any impact
+
+Reference
+https://superuser.com/questions/1212765/rdp-into-a-centos-vm-deployed-through-hyper-v-on-windows-10
+
+INSTALL
+https://medium.com/@vivekteega/how-to-setup-an-xrdp-server-on-ubuntu-18-04-89f7e205bd4e
+sudo apt-get update
+sudo apt-get install xrdp 
+
+# XFCE
+sudo apt-get install xfce4
+#Optional stuff
+sudo apt-get install xfce4-terminal
+sudo apt-get install gnome-icon-theme-full tango-icon-theme
+
+# XFCE
+sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n xfce-session \n' /etc/xrdp/startwm.sh
+
+# allow just RDP through the local firewall
+sudo ufw allow 3389/tcp
+# restart xrdp 
+sudo /etc/init.d/xrdp restart
+
+
+
+However, when I went to Microsoft RDP onto Ubuntu I got "blank" desktop then quit out
+
+
+RDP
+Computer	10.52.3.232
+Username	steven
+Password	SP4
+Connect
+Module		sesman-Xvnc		DEFAULT
+
+
+
+https://askubuntu.com/questions/91657/blank-desktop-when-logging-in-via-xrdp
+
+
+BLANK desktop fix
+cd /home/youruser
+echo "gnome-session --session=ubuntu-2d" > .xsession
+sudo /etc/init.d/xrdp restart
+
+
+restart -> still blank desktop
+however
+
+
+
+sudo apt-get install xfce4
+Then add the line
+xfce4-session
+to your ~/.xsession file instead of the gnome-session --session=ubuntu-2d line
+
+
+i.e.
+in ~/.xsession file replace "gnome-session --session=ubuntu-2d line" with "xfce4-session"
+
+Restart and now works!!
+
+
+
+
+Hyper V
+Ubuntu
+terminal
+sudo apt install xrdp
+
+
+WIN
+mstsc.exe
+
+
+https://medium.com/@vivekteega/how-to-setup-an-xrdp-server-on-ubuntu-18-04-89f7e205bd4e
+
+
+ssh steven@10.52.3.232
+
+
+
+https://websiteforstudents.com/connect-to-ubuntu-16-04-17-10-18-04-desktop-via-remote-desktop-connection-rdp-with-xrdp

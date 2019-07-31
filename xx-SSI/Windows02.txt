@@ -1,0 +1,25 @@
+Ubuntu on Windows02
+12/04/2019
+
+Start | run | cmd
+Hyper V Manager
+
+already setup Ubuntu via Window.txt file yesterday
+deleted but setup again with screen shots
+
+Hyper V Manager
+double click Ubuntu
+click Start
+
+
+Dublin
+English (US)
+
+Your name
+Steven Boland
+
+Your computer name
+steven-virtual-Machine
+
+Username	steven
+Password	SP4

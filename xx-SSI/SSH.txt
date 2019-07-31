@@ -1,0 +1,75 @@
+SSH
+12/04/2019
+
+
+WIN
+Git bash
+ssh steven@10.52.3.221
+that is MAC Ethernet connection
+Pwd125
+Stevens-MacBook-Pro:~ steven
+
+
+Windows to Linux [MAC]
+Mac
+Ubuntu
+sudo apt-get install ssh
+sudo service ssh start
+
+ifconfig
+inet addr
+10.0.2.15
+
+
+WIN
+Putty configuration
+https://www.putty.org
+Download PuTTY
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+
+Putty configuration
+Host	10.0.2.15
+Port	22
+
+connection type
+SSH
+
+
+
+WIN
+Ubuntu
+Terminal
+sudo apt-get install ssh
+sudo service ssh start
+
+ifconfig
+inet addr
+10.50.3.60
+
+gitbash
+ssh steven@10.50.3.60
+Password
+SP4
+remember this is the Linux password NOT the Windows password
+
+NOTE:
+I did not have to setup
+
+
+
+Visual Studio 2017
+now that I have SSH started
+attempt to connect via Linux console mode application C++
+
+
+Hostname	10.52.3.60
+Port		22
+Username	steven	
+Authentication	password
+Password	SP4
+
+
+MAC
+ifconfig | grep inet
+inet		10.62.3.221

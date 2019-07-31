@@ -1,0 +1,57 @@
+HyperV Enhanced Session Mode
+18/04/2019
+
+Start | run | cmd
+Hyper V Manager
+
+
+Reference
+https://www.youtube.com/watch?v=oPHqoLbNTP8
+
+
+Ubuntu installed from before but Enhanced Mode disabled
+this is the reason why Ubuntu slow + laggy
+
+NB: had error not enough memory so halved memory to 8192MB
+
+
+User accounts
+Automatic Login
+was On
+turn Off
+
+
+Turn on enhanced session mode:
+Connect to the computer that hosts the virtual machine.
+In Hyper-V Manager, select the host's computer name.
+Select Hyper-V settings.
+Under Server, select Enhanced session mode policy.
+Select the Allow enhanced session mode check box.
+Under User, select Enhanced session mode.
+
+
+Select Ubuntu
+Hyper V Settings...
+
+
+xRdp
+sudo apt install xrdp sudo systemctl enable xrdp. ...
+sudo systemctl enable xrdp
+
+
+
+INSTALL xRdp?
+http://c-nergy.be/blog/?p=8952
+sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon
+sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
+
+
+After install xRDP Terminal turns white but can't revert even after remove
+
+DELETE Ubuntu and start again but try generation2
+C:\ProgramData\Microsoft\Windows\Hyper-V
+
+Not sure if this would work but after reading this:
+https://stackoverflow.com/questions/18984080/running-a-vm-on-windows-8-without-disabling-hyper-v/20234346#20234346
+
+C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\

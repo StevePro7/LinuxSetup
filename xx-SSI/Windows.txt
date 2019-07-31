@@ -1,0 +1,82 @@
+Ubuntu on Windows
+11/04/2019
+
+Start | run | cmd
+Hyper V Manager
+
+Reference
+https://www.windowscentral.com/how-run-linux-distros-windows-10-using-hyper-v#install_linux_hyperv
+
+HyperV enabled
+
+
+01.
+New Virtual Switch Manager
+Open Start.
+Search for Hyper-V Manager and click the top result.
+Click on the Action menu.
+Select New and click on Virtual Switch Manager.
+
+On the left pane, select New virtual network switch.
+On the right, select External.
+Click the Create Virtual Switch button.
+
+MyVirtualSwitch
+Under connection type, make sure your network adapter is select on External network.
+Click Apply.
+Click OK.
+
+Creating a virtual machine
+Select New and click on Virtual Machine.
+
+Ubuntu
+C:\Users\Public\Documents\Hyper-V\Virtual hard disks
+
+NB: I unchecked "Dynamic" during process to be consistent with Virtualbox
+Generation 1
+RAM
+8192GB
+
+Configuring Network
+MyVirtualSwitch
+
+Storage
+40GB
+
+
+On Installation options, select the Install an operating system from a bootable CD/DVD-ROM option.
+Select the Image file (.iso) option.
+ubuntu-16.04.3-desktop-amd64.iso
+C:\stevepro\INSTALL\Ubuntu
+
+
+How to install Ubuntu Linux using Hyper-V on Windows 10
+right click Ubuntu
+Connect
+Start
+Install Ubuntu button
+
+Name	Steven Boland
+steven
+StevePro
+
+MAC
+steven-virtualbox
+
+WIN
+steven-windowsbox
+
+
+
+RESTART
+Hyper V Manager
+Double click Ubuntu
+Click Start
+if prompted with the GNU GRUB prompt then do the following
+Choose 2nd option	Advanced options
+Choose top option	Ubuntu with Linux 4.10.0.28 generic
+
+Seems to have problem when using 4 processors in Settings
+
+Don't forget to try
+cmder
