@@ -5,6 +5,7 @@ Start | run | cmd
 Hyper V Manager
 
 Reference
+https://www.windowscentral.com/how-run-linux-distros-windows-10-using-hyper-v
 https://www.windowscentral.com/how-run-linux-distros-windows-10-using-hyper-v#install_linux_hyperv
 
 HyperV enabled

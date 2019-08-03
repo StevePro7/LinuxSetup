@@ -14,5 +14,5 @@ F3		is like F12 in Visual Studio
 
 File explorer
 Ctrl+D
-Add bookmard
+Add bookmark
 https://askubuntu.com/questions/83118/create-a-link-to-a-folder-on-the-left-panel-of-nautilus-file-manager
