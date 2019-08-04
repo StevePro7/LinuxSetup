@@ -104,8 +104,7 @@ sudo apt-get install oracle-java8-installer
 
 
 Still failing therefore javac prmopts me to install
-sudo apt-get install
-default-jdk
+sudo apt-get install default-jdk
  * default-jdk
  * ecj
  * gcj-5-jdk

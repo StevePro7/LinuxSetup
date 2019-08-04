@@ -51,7 +51,7 @@ cd bin
 Try giteye because it is free
 Download GitEye
 https://www.collab.net/downloads/giteye#show-Linux
-
+https://www.collab.net/downloads/giteye-linux-64
 64-bit
 cd 
 cd Downloads
@@ -99,7 +99,7 @@ Gio Boards
 https://app.gitkraken.com/glo
 
 IMPORTANT
-Can launch Terminal window from GitKraken but se3ems to be key shortcut only
+Can launch Terminal window from GitKraken but seems to be key shortcut only
 
 i.e.
 https://support.gitkraken.com/faq
