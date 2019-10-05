@@ -1,0 +1,16 @@
+Setup python on WSL
+05/10/2019
+
+
+https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04
+
+sudo apt update
+sudo apt install software-properties-common
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+Output
+Press [ENTER] to continue or Ctrl-c to cancel adding it.
+
+sudo apt install python3.7
+python3.7 --version
